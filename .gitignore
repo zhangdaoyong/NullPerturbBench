@@ -1,0 +1,15 @@
+# Raw multi-GB datasets, large binary caches, Python bytecode, and OS clutter
+__pycache__/
+*.py[cod]
+*.pyc
+.DS_Store
+.venv*/
+data/
+*.gctx
+*.h5ad
+*.parquet
+*grn_sym*.npy
+manuscript/
+*.docx
+*.pdf
+!figures/*.pdf
